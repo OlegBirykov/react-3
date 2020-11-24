@@ -1,3 +1,11 @@
+# Build Status
+
+[![Build status](https://ci.appveyor.com/api/projects/status/xvrjukip157eex1d?svg=true)](https://ci.appveyor.com/project/OlegBirykov/react-3)
+
+# GitHub Pages
+
+https://olegbirykov.github.io/react-3/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
