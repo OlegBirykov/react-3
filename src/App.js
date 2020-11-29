@@ -2,6 +2,8 @@ import './App.css';
 import Stars from './task1/Stars';
 import Listing from './task2/Listing';
 import data from './task2/data';
+import MessageHistory from './task3/MessageHistory';
+import messages from './task3/data/messages';
 
 function App() {
   return (
@@ -17,6 +19,13 @@ function App() {
         <Listing items={data} />
       </div>
       <div className="task-3">
+        <div className="clearfix container">
+          <div className="chat">
+            <div className="chat-history">
+              <MessageHistory list={messages} />
+            </div>
+          </div>  
+        </div>
       </div>
     </div>
   );
