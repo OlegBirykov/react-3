@@ -326,6 +326,10 @@ body {
   height: 575px;
 }
 
+.chat .chat-history ul {
+  list-style: none;
+}
+
 .chat .chat-history .message-data {
   margin-bottom: 15px;
 }
@@ -408,9 +412,17 @@ body {
   color: #75b1e8;
 }
 
+.fa-05 {
+  opacity: 0.5;
+}
+
+.fa-025 {
+  opacity: 0.25;
+}
+
 .online, .offline, .me {
   margin-right: 3px;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .online {
