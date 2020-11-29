@@ -10,8 +10,13 @@ function Listing(props) {
     title = 'No title', 
     currency_code = '', 
     price = 0, 
-    quantity = 0
+    quantity = 0,
+    error_messages
   }) => {
+    if (error_messages) {
+      return false;
+    }
+
     let priceString, quantityStyle;
 
     switch (currency_code) {
